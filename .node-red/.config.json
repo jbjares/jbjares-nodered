@@ -886,13 +886,12 @@
   },
   "node-red-node-clean-conversation-input": {
    "name": "node-red-node-clean-conversation-input",
-   "version": "0.0.1",
+   "version": "1.0.0",
    "local": false,
    "nodes": {
     "cloudant-cf": {
      "name": "cloudant-cf",
      "types": [
-      "HtmltotextTelegram",
       "Htmltotext"
      ],
      "enabled": true,
