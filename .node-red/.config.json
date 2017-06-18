@@ -883,6 +883,60 @@
      "file": "/Users/jbjares/Documents/workspaces/node-red-workspace/noderedibm/node_modules/html-from-wconversation-to-text/htmltotext-wconversation.js"
     }
    }
+  },
+  "node-red-node-clean-conversation-input": {
+   "name": "node-red-node-clean-conversation-input",
+   "version": "0.0.1",
+   "local": false,
+   "nodes": {
+    "cloudant-cf": {
+     "name": "cloudant-cf",
+     "types": [
+      "HtmltotextTelegram",
+      "Htmltotext"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red-node-clean-conversation-input",
+     "file": "/Users/jbjares/Documents/workspaces/node-red-workspace/noderedibm/node_modules/node-red-node-clean-conversation-input/htmltotext-wconversation.js"
+    }
+   }
+  },
+  "node-red-node-clean-conversation-output": {
+   "name": "node-red-node-clean-conversation-output",
+   "version": "1.0.0",
+   "local": false,
+   "nodes": {
+    "cloudant-cf": {
+     "name": "cloudant-cf",
+     "types": [
+      "HtmltotextWatsonConversation>\n   <!-- data-template-name identifies the node type this is for              -->\n\n   <!-- Each of the following divs creates a field in the edit dialog.       -->\n   <!-- Generally, there should be an input for each property of the node.   -->\n   <!-- The for and id attributes identify the corresponding property        -->\n   <!-- (with the ",
+      "HtmltotextWatsonConversation"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red-node-clean-conversation-output",
+     "file": "/Users/jbjares/Documents/workspaces/node-red-workspace/noderedibm/node_modules/node-red-node-clean-conversation-output/htmltotext-watson-conversation.js"
+    }
+   }
+  },
+  "node-red-node-discovery-query": {
+   "name": "node-red-node-discovery-query",
+   "version": "1.0.0",
+   "local": false,
+   "nodes": {
+    "cloudant-cf": {
+     "name": "cloudant-cf",
+     "types": [
+      "CustomDiscoveryQuery>\n   <!-- data-template-name identifies the node type this is for              -->\n\n   <!-- Each of the following divs creates a field in the edit dialog.       -->\n   <!-- Generally, there should be an input for each property of the node.   -->\n   <!-- The for and id attributes identify the corresponding property        -->\n   <!-- (with the ",
+      "CustomDiscoveryQuery"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red-node-discovery-query",
+     "file": "/Users/jbjares/Documents/workspaces/node-red-workspace/noderedibm/node_modules/node-red-node-discovery-query/custom-discovery-query.js"
+    }
+   }
   }
  },
  "_credentialSecret": "3d8dc53a32786fd5f0b96b0faee1b55c7fb0141778ec081565a8399295cd57fc"
