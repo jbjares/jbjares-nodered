@@ -1,0 +1,56 @@
+{
+  "_from": "node-red-node-discovery-query",
+  "_id": "node-red-node-discovery-query@0.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-3OkOBsRaK/R39JviXPlvjkm+Ww7MddIK8CwUd7K7lJPqjnaioGCokqkqr4UIN8Ay2ftenLr1T8rj89L80LMApQ==",
+  "_location": "/node-red-node-discovery-query",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "node-red-node-discovery-query",
+    "name": "node-red-node-discovery-query",
+    "escapedName": "node-red-node-discovery-query",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "keywords": [
+    "node-red",
+    "cloudant",
+    "couchdb",
+    "bluemix"
+  ],
+  "dependencies": {
+    "emoji-regex": "^6.4.2",
+    "emoji-replace": "^1.0.1",
+    "emoji-strip": "^1.0.1",
+    "html-to-text": "^3.3.0"
+  },
+  "name": "node-red-node-discovery-query",
+  "node-red": {
+    "nodes": {
+      "cloudant-cf": "custom-discovery-query.js"
+    }
+  },
+  "_resolved": "https://registry.npmjs.org/html-from-wconversation-to-text/-/node-red-node-discovery-query-0.0.1.tgz",
+  "_shasum": "13d4da9a96dd2e0cd598b0223794adce1c171cc7",
+  "_spec": "node-red-node-discovery-query",
+  "_where": "",
+  "author": {
+    "name": "Joao Bosco Jares",
+    "email": "jbjares@gmail.com"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "",
+  "license": "Apache-2.0",
+  "main": "custom-discovery-query.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}

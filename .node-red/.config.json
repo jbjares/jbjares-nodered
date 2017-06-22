@@ -283,32 +283,34 @@
     "custom-discovery-query": {
      "name": "custom-discovery-query",
      "types": [
-      "CustomDiscoveryQuery>\n   <!-- data-template-name identifies the node type this is for              -->\n\n   <!-- Each of the following divs creates a field in the edit dialog.       -->\n   <!-- Generally, there should be an input for each property of the node.   -->\n   <!-- The for and id attributes identify the corresponding property        -->\n   <!-- (with the "
+      "CustomDiscoveryQuery>\n   <!-- data-template-name identifies the node type this is for              -->\n\n   <!-- Each of the following divs creates a field in the edit dialog.       -->\n   <!-- Generally, there should be an input for each property of the node.   -->\n   <!-- The for and id attributes identify the corresponding property        -->\n   <!-- (with the ",
+      "CustomDiscoveryQuery"
      ],
      "enabled": true,
      "local": false,
      "module": "node-red",
-     "file": "/Users/jbjares/Documents/workspaces/node-red-workspace/noderedibm/nodes/custom-discovery-query/custom-discovery-query.js"
+     "file": "/Users/jbjares/Documents/workspaces/node-red-workspace/noderedibm/nodes/node-red-node-discovery-query/custom-discovery-query.js"
     },
     "htmltotext-wconversation": {
      "name": "htmltotext-wconversation",
      "types": [
-      "HtmltotextTelegram"
+      "Htmltotext"
      ],
      "enabled": true,
      "local": false,
      "module": "node-red",
-     "file": "/Users/jbjares/Documents/workspaces/node-red-workspace/noderedibm/nodes/html-from-wconversation-to-text/htmltotext-wconversation.js"
+     "file": "/Users/jbjares/Documents/workspaces/node-red-workspace/noderedibm/nodes/node-red-node-clean-conversation-input/htmltotext-wconversation.js"
     },
     "htmltotext-watson-conversation": {
      "name": "htmltotext-watson-conversation",
      "types": [
-      "HtmltotextWatsonConversation>\n   <!-- data-template-name identifies the node type this is for              -->\n\n   <!-- Each of the following divs creates a field in the edit dialog.       -->\n   <!-- Generally, there should be an input for each property of the node.   -->\n   <!-- The for and id attributes identify the corresponding property        -->\n   <!-- (with the "
+      "HtmltotextWatsonConversation>\n   <!-- data-template-name identifies the node type this is for              -->\n\n   <!-- Each of the following divs creates a field in the edit dialog.       -->\n   <!-- Generally, there should be an input for each property of the node.   -->\n   <!-- The for and id attributes identify the corresponding property        -->\n   <!-- (with the ",
+      "HtmltotextWatsonConversation"
      ],
      "enabled": true,
      "local": false,
      "module": "node-red",
-     "file": "/Users/jbjares/Documents/workspaces/node-red-workspace/noderedibm/nodes/html-to-text-wconversation/htmltotext-watson-conversation.js"
+     "file": "/Users/jbjares/Documents/workspaces/node-red-workspace/noderedibm/nodes/node-red-node-clean-conversation-output/htmltotext-watson-conversation.js"
     },
     "htmltotextwconversation": {
      "name": "htmltotextwconversation",
@@ -887,7 +889,7 @@
   "node-red-node-clean-conversation-input": {
    "name": "node-red-node-clean-conversation-input",
    "version": "1.0.0",
-   "local": false,
+   "local": true,
    "nodes": {
     "cloudant-cf": {
      "name": "cloudant-cf",
@@ -895,45 +897,64 @@
       "Htmltotext"
      ],
      "enabled": true,
-     "local": false,
+     "local": true,
      "module": "node-red-node-clean-conversation-input",
-     "file": "/Users/jbjares/Documents/workspaces/node-red-workspace/noderedibm/node_modules/node-red-node-clean-conversation-input/htmltotext-wconversation.js"
+     "file": "/Users/jbjares/Documents/workspaces/node-red-workspace/noderedibm/.node-red/node_modules/node-red-node-clean-conversation-input/htmltotext-wconversation.js"
     }
    }
   },
   "node-red-node-clean-conversation-output": {
    "name": "node-red-node-clean-conversation-output",
    "version": "1.0.0",
-   "local": false,
+   "local": true,
    "nodes": {
     "cloudant-cf": {
      "name": "cloudant-cf",
      "types": [
-      "HtmltotextWatsonConversation>\n   <!-- data-template-name identifies the node type this is for              -->\n\n   <!-- Each of the following divs creates a field in the edit dialog.       -->\n   <!-- Generally, there should be an input for each property of the node.   -->\n   <!-- The for and id attributes identify the corresponding property        -->\n   <!-- (with the ",
-      "HtmltotextWatsonConversation"
+      "HtmltotextWatsonConversation>\n   <!-- data-template-name identifies the node type this is for              -->\n\n   <!-- Each of the following divs creates a field in the edit dialog.       -->\n   <!-- Generally, there should be an input for each property of the node.   -->\n   <!-- The for and id attributes identify the corresponding property        -->\n   <!-- (with the "
      ],
      "enabled": true,
-     "local": false,
+     "local": true,
      "module": "node-red-node-clean-conversation-output",
-     "file": "/Users/jbjares/Documents/workspaces/node-red-workspace/noderedibm/node_modules/node-red-node-clean-conversation-output/htmltotext-watson-conversation.js"
+     "file": "/Users/jbjares/Documents/workspaces/node-red-workspace/noderedibm/.node-red/node_modules/node-red-node-clean-conversation-output/htmltotext-watson-conversation.js"
     }
    }
   },
   "node-red-node-discovery-query": {
    "name": "node-red-node-discovery-query",
    "version": "1.0.0",
-   "local": false,
+   "local": true,
    "nodes": {
     "cloudant-cf": {
      "name": "cloudant-cf",
      "types": [
-      "CustomDiscoveryQuery>\n   <!-- data-template-name identifies the node type this is for              -->\n\n   <!-- Each of the following divs creates a field in the edit dialog.       -->\n   <!-- Generally, there should be an input for each property of the node.   -->\n   <!-- The for and id attributes identify the corresponding property        -->\n   <!-- (with the ",
-      "CustomDiscoveryQuery"
+      "CustomDiscoveryQuery>\n   <!-- data-template-name identifies the node type this is for              -->\n\n   <!-- Each of the following divs creates a field in the edit dialog.       -->\n   <!-- Generally, there should be an input for each property of the node.   -->\n   <!-- The for and id attributes identify the corresponding property        -->\n   <!-- (with the "
      ],
      "enabled": true,
-     "local": false,
+     "local": true,
      "module": "node-red-node-discovery-query",
-     "file": "/Users/jbjares/Documents/workspaces/node-red-workspace/noderedibm/node_modules/node-red-node-discovery-query/custom-discovery-query.js"
+     "file": "/Users/jbjares/Documents/workspaces/node-red-workspace/noderedibm/.node-red/node_modules/node-red-node-discovery-query/custom-discovery-query.js"
+    }
+   }
+  },
+  "node-red-contrib-telegrambot": {
+   "name": "node-red-contrib-telegrambot",
+   "version": "2.4.1",
+   "local": true,
+   "nodes": {
+    "telegrambot": {
+     "name": "telegrambot",
+     "types": [
+      "telegram bot",
+      "telegram receiver",
+      "telegram command",
+      "telegram sender",
+      "telegram reply"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-telegrambot",
+     "file": "/Users/jbjares/Documents/workspaces/node-red-workspace/noderedibm/.node-red/node_modules/node-red-contrib-telegrambot/telegrambot/99-telegrambot.js"
     }
    }
   }
